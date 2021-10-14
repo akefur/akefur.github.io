@@ -117,23 +117,23 @@ canvas {
   header {
     background: var(--white-bg);
     grid-column: 2 / span 5;
-    font-size: 2rem;
-    padding: 2rem;
+    font-size: 1rem;
+    padding: 1rem;
     margin-bottom: var(--spacing);
   }
 
   section {
     grid-column: 2 / 8;
-    padding: 1rem;
+    padding: 0.5rem;
     background: var(--white-bg);
-    font-size: 1.5rem;
-    line-height: 1.5;
+    font-size: 1rem;
+    line-height: 1;
     margin-bottom: var(--spacing);
   }
 
   blockquote {
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     grid-column: 2 / span 9;
     margin-bottom: var(--spacing);
   }
@@ -141,7 +141,7 @@ canvas {
   blockquote p {
     color: black;
     background-color: white;
-    font-size: 3rem;
+    font-size: 1.5rem;
     display: inline;
     line-height: 1;
   }
