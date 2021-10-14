@@ -1,13 +1,20 @@
 @import url(https://use.typekit.net/jmk3xov.css);
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body {
+      background: #999;
+      width: 100%;
+    }
+  }
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-html{
-  font-size: 14px;
-}
+html, body {
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+  }
 
 .spinner-wrapper{
   width: 100%;
@@ -51,13 +58,18 @@ html{
   transform: translate(-50%, -50%);
 }
 
+
 @keyframes spin {
   to {
       transform: rotate(360deg);
   }
 
 }
-
+.modal {
+    width: 50vw;
+    height: 50vh;
+    height: calc(var(--vh, 1vh) * 50);
+  }
 canvas {
   position: fixed;
   top: 0;
@@ -135,7 +147,7 @@ canvas {
   }
 
   .left {
-    grid-column: 1 / 12;
+    grid-column: 12 / 12;
   }
 
 
